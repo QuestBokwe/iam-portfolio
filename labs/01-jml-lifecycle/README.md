@@ -66,4 +66,4 @@ Disable the account and revoke sessions on the last day. Remove group membership
 - **Removal before grant:** the order in the log shows the old access ended before the new access started, which prevents access creep.
 - **Evidence matters:** the audit log proved every stage, including my own mistakes.
 - **Disable before cleanup:** a disabled account cannot have its password reset, so tests that need credentials come first.
-- **Next steps:** automate the lifecycle with Microsoft Graph PowerShell and compare assigned groups with dynamic groups.
+
