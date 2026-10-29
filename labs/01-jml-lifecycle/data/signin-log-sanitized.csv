@@ -1,0 +1,4 @@
+time_utc,user,application,result,error_code,meaning
+2026-10-29 10:42:21,Ava,My Profile,Interrupted,50055,"Temporary password expired, forced change"
+2026-10-29 10:44:45,Ava,My Profile,Interrupted,50140,Keep me signed in prompt (expected)
+2026-10-29 10:44:49,Ava,My Profile,Success,,Signed in

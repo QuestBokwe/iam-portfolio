@@ -1,0 +1,29 @@
+time_utc,stage,activity,target,result,change
+2026-10-29 09:58:43,Setup,Add group,GRP-Finance,Success,
+2026-10-29 09:59:01,Setup,Add group,GRP-IT,Success,
+2026-10-29 09:59:28,Setup,Add group,GRP-Sales,Success,
+2026-10-29 10:12:18,Joiner,Add user,Alex,Success,AccountEnabled: (none) -> true; Department: (none) -> Finance; JobTitle: (none) -> Accountant
+2026-10-29 10:13:16,Joiner,Add user,ulinea,Success,AccountEnabled: (none) -> true; Department: (none) -> IT; JobTitle: (none) -> Systems Administrator
+2026-10-29 10:13:57,Joiner,Add user,shannan,Success,AccountEnabled: (none) -> true; Department: (none) -> Sales; JobTitle: (none) -> Sales Representative
+2026-10-29 10:14:24,Joiner,Add user,mike,Success,AccountEnabled: (none) -> true; Department: (none) -> Sales; JobTitle: (none) -> Sales Representative
+2026-10-29 10:14:51,Joiner,Add user,Ava,Success,AccountEnabled: (none) -> true; Department: (none) -> Finance; JobTitle: (none) -> Financial Analyst
+2026-10-29 10:17:17,Joiner,Add member to group,Alex,Success,Group.DisplayName: (none) -> GRP-Finance
+2026-10-29 10:17:17,Joiner,Add member to group,Ava,Success,Group.DisplayName: (none) -> GRP-Finance
+2026-10-29 10:19:01,Joiner,Add member to group,ulinea,Success,Group.DisplayName: (none) -> GRP-IT
+2026-10-29 10:19:29,Joiner,Add member to group,shannan,Success,Group.DisplayName: (none) -> GRP-Sales
+2026-10-29 10:19:29,Joiner,Add member to group,mike,Success,Group.DisplayName: (none) -> GRP-Sales
+2026-10-29 10:42:13,First sign-in,Update StsRefreshTokenValidFrom Timestamp,Ava,Success,
+2026-10-29 10:42:13,First sign-in,Reset password (by admin),Ava,Success,
+2026-10-29 10:42:54,First sign-in,Update StsRefreshTokenValidFrom Timestamp,Ava,Failure,
+2026-10-29 10:42:54,First sign-in,Change password (self-service),Ava,Failure,
+2026-10-29 10:43:48,First sign-in,Update StsRefreshTokenValidFrom Timestamp,Ava,Success,
+2026-10-29 10:43:49,First sign-in,Change password (self-service),Ava,Success,
+2026-10-29 10:44:45,First sign-in,User registered all required security info,Ava,Success,
+2026-10-29 10:54:07,Mover,Remove member from group,mike,Success,Group.DisplayName: GRP-Sales -> (none)
+2026-10-29 10:56:07,Mover,Add member to group,mike,Success,Group.DisplayName: (none) -> GRP-Finance
+2026-10-29 10:57:45,Mover,Update user,mike,Success,Department: Sales -> Finance; JobTitle: Sales Representative -> Financial Analyst
+2026-10-29 11:07:08,Leaver,Update StsRefreshTokenValidFrom Timestamp,shannan,Success,
+2026-10-29 11:07:37,Leaver,Disable account,shannan,Success,AccountEnabled: true -> false
+2026-10-29 11:09:47,Leaver,Remove member from group,shannan,Success,Group.DisplayName: GRP-Sales -> (none)
+2026-10-29 11:14:22,Leaver,Enable account,shannan,Success,AccountEnabled: false -> true
+2026-10-29 11:21:19,Leaver,Disable account,shannan,Success,AccountEnabled: true -> false

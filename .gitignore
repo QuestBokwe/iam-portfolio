@@ -1,0 +1,13 @@
+.env
+*.pem
+*.key
+credentials
+*.secret
+secrets.*
+.aws/
+.DS_Store
+Thumbs.db
+
+# Lab 01 generated credentials and logs
+temp-passwords.csv
+*.log
