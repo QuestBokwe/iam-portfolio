@@ -9,8 +9,8 @@ All labs use a personal test tenant and fake users. No employer or client data i
 |#|Lab|Focus|Status|
 |-|-|-|-|
 |01|[Joiner/Mover/Leaver lifecycle](labs/01-jml-lifecycle/)|Provisioning, group-based access, deprovisioning, audit trail|Complete|
-|02|RBAC design|Least privilege, role matrix, group-based assignment|Planned|
-|03|Conditional Access and MFA|MFA enforcement, legacy auth block, report-only testing|Planned|
+|02|RBAC design|Least privilege, role matrix, group-based assignment|Complete|
+|03|Conditional Access and MFA|MFA enforcement, legacy auth block, report-only testing|Progress|
 |04|OIDC SSO|App registration, ID token claims, failure analysis|Planned|
 |05|Access review|Recertification, review decisions, audit evidence|Planned|
 |06|SCIM provisioning|Attribute mapping, automated provisioning, failures|Planned|
